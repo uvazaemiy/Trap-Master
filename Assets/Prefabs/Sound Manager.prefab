@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3274382190203791367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3274382190203791368}
+  - component: {fileID: 3274382190203791369}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3274382190203791368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3274382190203791367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3274382190203791369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3274382190203791367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d7008399acc054ba8f47397cca1599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fxButton: {fileID: 0}
+  musicButton: {fileID: 0}
+  musicVolume: 0.3
+  fxVolume: 0.5
+  lowPitch: 0.8
+  highPitch: 1.2
+  winSounds:
+  - {fileID: 8300000, guid: b1031054e975f7c45b5b541f0b72edb4, type: 3}
+  - {fileID: 8300000, guid: 693410be7f71bf24ebba76dd4b842a19, type: 3}
+  loseSounds:
+  - {fileID: 8300000, guid: 62207e0ed7ec8dc4986dd3099cc101f5, type: 3}
+  punchSound: {fileID: 8300000, guid: 0ab368b38c0606d449ab32d9d46dbcaa, type: 3}
+  shoutSound: {fileID: 8300000, guid: f388782dc098c264ba3354f8353430b9, type: 3}
+  screamSound: {fileID: 8300000, guid: 896afb88b67d1634c85277d6f515c223, type: 3}
+  laughSound: {fileID: 8300000, guid: 21924a724ae502d4b97e14b6c0434b6b, type: 3}
+  bombSound: {fileID: 8300000, guid: 524a42de10b5abf4592f7ba5c1473d50, type: 3}
+  click1: {fileID: 8300000, guid: 1e955978820f51b40af7383ec6651e9d, type: 3}
+  click2: {fileID: 8300000, guid: 6596fe047731f554c907fef36433f69c, type: 3}
+  stepsSound: {fileID: 8300000, guid: 012022aa55099d843bf15281aa9b12af, type: 3}
+  obstacleSound: {fileID: 8300000, guid: e3fff2d18ac96c14a8e1148c8eb9a41e, type: 3}
